@@ -6,7 +6,7 @@ overrides:
 specifiers:
   '@nabla/vite-plugin-eslint': 1.5.0
   '@tailwindcss/forms': 0.5.3
-  '@tanstack/react-query': 4.28.0
+  '@tanstack/react-query': 5.59.15
   '@testing-library/cypress': 8.0.7
   '@testing-library/dom': 9.0.1
   '@testing-library/jest-dom': 5.16.5
@@ -65,7 +65,7 @@ specifiers:
   workbox-window: 6.5.4
 
 dependencies:
-  '@tanstack/react-query': 4.28.0_biqbaboplfbrettd7655fr4n2y
+  '@tanstack/react-query': 5.59.15_react@18.2.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-router-dom: 6.9.0_biqbaboplfbrettd7655fr4n2y
@@ -2106,26 +2106,17 @@ packages:
       tailwindcss: 3.2.7_postcss@8.4.21
     dev: true
 
-  /@tanstack/query-core/4.27.0:
-    resolution: {integrity: sha512-sm+QncWaPmM73IPwFlmWSKPqjdTXZeFf/7aEmWh00z7yl2FjqophPt0dE1EHW9P1giMC5rMviv7OUbSDmWzXXA==}
+  /@tanstack/query-core/5.59.13:
+    resolution: {integrity: sha512-Oou0bBu/P8+oYjXsJQ11j+gcpLAMpqW42UlokQYEz4dE7+hOtVO9rVuolJKgEccqzvyFzqX4/zZWY+R/v1wVsQ==}
     dev: false
 
-  /@tanstack/react-query/4.28.0_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-8cGBV5300RHlvYdS4ea+G1JcZIt5CIuprXYFnsWggkmGoC0b5JaqG0fIX3qwDL9PTNkKvG76NGThIWbpXivMrQ==}
+  /@tanstack/react-query/5.59.15_react@18.2.0:
+    resolution: {integrity: sha512-QbVlAkTI78wB4Mqgf2RDmgC0AOiJqer2c5k9STOOSXGv1S6ZkY37r/6UpE8DbQ2Du0ohsdoXgFNEyv+4eDoPEw==}
     peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
-      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-      react-native: '*'
-    peerDependenciesMeta:
-      react-dom:
-        optional: true
-      react-native:
-        optional: true
+      react: ^18 || ^19
     dependencies:
-      '@tanstack/query-core': 4.27.0
+      '@tanstack/query-core': 5.59.13
       react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-      use-sync-external-store: 1.2.0_react@18.2.0
     dev: false
 
   /@testing-library/cypress/8.0.7_cypress@10.11.0:
@@ -8166,14 +8157,6 @@ packages:
       querystringify: 2.2.0
       requires-port: 1.0.0
     dev: true
-
-  /use-sync-external-store/1.2.0_react@18.2.0:
-    resolution: {integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
-    dependencies:
-      react: 18.2.0
-    dev: false
 
   /util-deprecate/1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
